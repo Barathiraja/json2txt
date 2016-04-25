@@ -1,0 +1,13 @@
+{
+  "name":"json2txt",
+  "description": "Convert JSON to TXT",
+  "author": {
+    "name": "Barathi raja"
+  },
+  "version": "0.1",
+  "_npmVersion": "2.12.1",
+  "dependencies":{
+    "node-fs": "^0.1.7"
+  }
+}
+
