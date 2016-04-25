@@ -1,13 +1,30 @@
 {
-  "name":"json2txt",
-  "description": "Convert JSON to TXT",
-  "author": {
-    "name": "Barathi raja"
-  },
-  "version": "0.1",
-  "_npmVersion": "2.12.1",
-  "dependencies":{
+  "name": "json2txt",
+  "version": "1.0.1",
+  "description": "utility to convert json to a txt file with the given delimiter",
+  "main": "main.js",
+  "dependencies": {
     "node-fs": "^0.1.7"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Barathiraja/json2txt.git"
+  },
+  "keywords": [
+    "json",
+    "txt",
+    "json2txt",
+    "jsontotxt",
+    "json-txt"
+  ],
+  "author": "barathiraja,barathiraja92@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Barathiraja/json2txt/issues"
+  },
+  "homepage": "https://github.com/Barathiraja/json2txt#readme"
 }
-
