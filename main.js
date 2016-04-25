@@ -3,7 +3,7 @@
 
 var fs = require('node-fs');
 
-generateTxtFile=function(filePath,data,options){
+exports.generateTxtFile=function(filePath,data,options){
 
     var abc={author:'barathi',version:0.1},keyStr='',dataStr='',finalStr='';
 

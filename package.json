@@ -1,6 +1,6 @@
 {
   "name": "json2txt",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "utility to convert json to a txt file with the given delimiter",
   "main": "main.js",
   "dependencies": {
