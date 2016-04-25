@@ -40,8 +40,9 @@ generateTxtFile=function(filePath,data,options){
     };
 
     var genFile=function(){
+
         finalStr=keyStr+dataStr;
-        console.log(finalStr.lastIndexOf(options.delimiter))
+
         finalStr=finalStr.slice(0,finalStr.lastIndexOf(options.delimiter));
 
         fs.writeFile(filePath, finalStr, function (err) {
@@ -71,32 +72,32 @@ generateTxtFile=function(filePath,data,options){
 
 };
 
-var filePath='example.txt';
-
-var json = [
-{foo: 'bar',
-    qux: 'moo',
-    poo: 123,
-    stux: new Date()},
-
-       {foo: 'bar',
-        qux: 'moo',
-        poo: 123,
-        stux: new Date()},
-
-       {foo: 'bar',
-        qux: 'moo',
-        poo: 123,
-        stux: new Date()}
-];
-var abc={foo: 'bar',
-        qux: 'moo',
-        poo: 123,
-        stux: new Date()}
-var options = {
-    delimiter: '|',
-    headers: true
-};
+//var filePath='example.txt';
+//
+//var json = [
+//{foo: 'bar',
+//    qux: 'moo',
+//    poo: 123,
+//    stux: new Date()},
+//
+//       {foo: 'bar',
+//        qux: 'moo',
+//        poo: 123,
+//        stux: new Date()},
+//
+//       {foo: 'bar',
+//        qux: 'moo',
+//        poo: 123,
+//        stux: new Date()}
+//];
+//var abc={foo: 'bar',
+//        qux: 'moo',
+//        poo: 123,
+//        stux: new Date()}
+//var options = {
+//    delimiter: '|',
+//    headers: true
+//};
 generateTxtFile(filePath,json,options)
 
 
