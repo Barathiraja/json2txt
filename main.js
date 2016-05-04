@@ -17,14 +17,14 @@ exports.generateTxtFile=function(filePath,data,options){
 
     var formData=function(inputData){
 
-        if(options.headers==true) {
+        if(options.header==true) {
 
             for (var i in inputData) {
 
                 keyStr = keyStr + i + options.delimiter
             }
 
-            options.headers=false;
+            options.header=false;
 
         }
         for (var i in inputData) {
